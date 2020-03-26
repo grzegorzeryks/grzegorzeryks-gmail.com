@@ -151,3 +151,97 @@ section {
   .zakres .zakres-icon {
     background: url("../img/icon_zakres.png") no-repeat center;
     margin-top: 50px; }
+
+.oferta {
+  background-color: black;
+  background-image: url("../img/background.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  color: white;
+  padding-bottom: 100px; }
+  .oferta h2 {
+    color: white;
+    width: 185PX;
+    border-bottom: 1px solid #bf1e2e; }
+  .oferta div {
+    width: 90%; }
+    .oferta div div {
+      padding: 62px 0 0 85px; }
+  .oferta .icons {
+    display: flex;
+    justify-content: space-around; }
+    .oferta .icons div {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      background: #bf1e2e;
+      background-repeat: no-repeat;
+      background-position: center; }
+    .oferta .icons .icon1 {
+      background-image: url("../img/icon1_uslugi.png"); }
+    .oferta .icons .icon2 {
+      background-image: url("../img/icon2_uslugi.png"); }
+    .oferta .icons .icon3 {
+      background-image: url("../img/icon3_uslugi.png"); }
+
+.kontakt {
+  flex-direction: column; }
+  .kontakt h2 {
+    width: 230px; }
+  .kontakt div:nth-child(2) {
+    padding: 62px 0;
+    display: flex;
+    width: 100%; }
+    .kontakt div:nth-child(2) .formularz {
+      width: 128%;
+      padding: 0 20px; }
+    .kontakt div:nth-child(2) .adres {
+      background-color: #bf1e2e;
+      border-radius: 20px;
+      margin: 0 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .kontakt div:nth-child(2) .adres address {
+        font-style: unset;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 3rem; }
+
+form input[type=text],
+form select,
+form textarea {
+  font-family: "Open Sans";
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+  letter-spacing: 1px; }
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3c3c3c;
+  color: white;
+  font-size: 29.52px;
+  letter-spacing: 4px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.5s ease; }
+  form button:hover {
+    background-color: #bf1e2e; }
+
+form input[type=text]:focus,
+form textarea:focus {
+  border: 2px solid #fad7e5; }
+
+footer {
+  height: 86px;
+  background-color: #bf1e2e; }
