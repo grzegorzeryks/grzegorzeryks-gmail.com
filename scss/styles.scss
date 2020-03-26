@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    // background-color: rgb(246, 246, 246);
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    color: rgb(60, 60, 60);
+    padding: 62px 0 20px 85px;
+    border-bottom: 1.5px solid rgb(191, 30, 46);
+}
+
+span {
+    color: rgb(191, 30, 46);
+}
+
+header {
+    height: 119px;
+    background: white url("../img/weldlab_logo_gray.png") no-repeat;
+    background-position: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+    nav {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 0 0;
+        margin: 0 0 0 -51px;
+
+        ul {
+            padding-top: 39px;
+
+
+            li {
+                display: inline-block;
+                margin-left: 30px;
+
+                a {
+                    color: rgb(60, 60, 60);
+                    font-size: 1.1rem;
+                    letter-spacing: 3px;
+                    font-weight: bold;
+
+                    &:hover {
+                        color: rgb(191, 30, 46);
+                    }
+                }
+            }
+
+            &:nth-child(1) {
+                margin-right: 20px;
+            }
+        }
+
+        img {
+            margin-top: 10px;
+            margin: 10px 36px;
+            position: relative;
+
+            &:after {
+                content: ' ';
+                width: 62px;
+                height: 100px;
+                position: absolute;
+                bottom: 10px;
+                background-color: #fad7e5;
+            }
+        }
+
+        .nav-fb-logo {
+            margin-top: 40px;
+            width: 30px;
+            height: 30px;
+            background: url("../img/fb_logo.png");
+            position: absolute;
+            right: 40px;
+            top: px;
+        }
+
+    }
+}
+
+section {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 6px;
+    display: flex;
+
+    div {
+        width: 50%;
+    }
+
+}
+
+.main {
+    margin-top: 119px;
+    background-color: black;
+    height: 600px;
+    background-image: url("../img/section_background.png");
+    background-position: right;
+    background-repeat: no-repeat;
+
+
+    div {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 100;
+
+        h1 {
+            font-weight: 100;
+            padding-bottom: 30px;
+            border-bottom: 1.5px solid rgb(191, 30, 46);
+            font-size: 2.8rem;
+
+            strong {
+                font-weight: normal;
+            }
+        }
+
+        // &:nth-child(1) {}
+
+        p {
+            width: 440px;
+            padding-top: 30px;
+
+
+
+        }
+
+        .button {
+            width: 144px;
+            height: 48px;
+            background-color: rgb(191, 30, 46);
+            margin: 50px 0 0 -100px;
+            font-weight: 400;
+            letter-spacing: 4px;
+            border-radius: 10px;
+
+            &:hover {
+                transition: ease 0.5s;
+                background-color: white;
+                color: rgb(191, 30, 46);
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.onas {
+    height: 500px;
+    background-color: rgb(246, 246, 246);
+
+    div {}
+
+
+    background: url("../img/icon2_main.png") no-repeat;
+    background-position: bottom left;
+    padding-bottom: 50px;
+
+    .onas-text {
+        padding: 62px 0 20px 85px;
+        width: 100%;
+    }
+
+    h2 {
+        width: 152px;
+    }
+
+    .main-icon {
+        background: url("../img/icon1.png") no-repeat center;
+        margin-top: 50px;
+
+    }
+
+
+}
+
+.zakres {
+    background: rgb(191, 30, 46);
+    color: white;
+    padding-bottom: 50px;
+    height: 533px;
+    h2 {
+        color: white;
+        border-bottom: 1.5px solid white;
+        width: 360PX;
+    }
+
+    div {
+        div {
+            display: flex;
+            justify-content: center;
+            width: 90%;
+            ul {
+                padding: 50px 0 0 50px;
+                letter-spacing: 3px;
+                li{
+                    padding: 20px 0 0 0;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+    .zakres-icon {
+        background: url("../img/icon_zakres.png") no-repeat center;
+        margin-top: 50px;
+    }
+
+}
+
+
+// border: 1px dashed rgb(191, 30, 46);
