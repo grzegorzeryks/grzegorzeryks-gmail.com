@@ -289,13 +289,21 @@ footer {
       height: 360px;
       margin: 0; }
   .oferta {
-    background-position: right top; }
+    background-position: right top;
+    padding-bottom: 50px; }
     .oferta div {
       width: auto;
       display: flex;
       flex-direction: column; }
       .oferta div div {
         padding: 50px 10px 0 10px; }
+    .oferta .icons {
+      justify-content: center;
+      align-items: center; }
+      .oferta .icons div {
+        padding: 38px;
+        background-position: center;
+        margin-top: 20px; }
   .kontakt div:nth-child(2) {
     flex-direction: column; }
     .kontakt div:nth-child(2) .formularz {

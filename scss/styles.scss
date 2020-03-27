@@ -420,12 +420,22 @@ footer {
 }
 .oferta {
     background-position: right top;
+    padding-bottom: 50px;
     div {
         width: auto;
         display: flex;
         flex-direction: column;
        div {
            padding: 50px 10px 0 10px;
+       }
+    }
+    .icons {
+        justify-content: center;
+        align-items: center;
+        div {
+            padding: 38px;
+            background-position: center;
+            margin-top: 20px;
        }
     }
 }
