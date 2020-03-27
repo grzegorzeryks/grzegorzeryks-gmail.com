@@ -352,4 +352,100 @@ footer {
     background-color: rgb(191, 30, 46);
 }
 
+@media only screen and (max-width: 468px){
+
+    
+    header {
+
+        nav{        margin: 0;
+            ul {
+                display: none;
+            }
+        }
+    }
+
+    .main {
+        div {
+            width: 100%;
+            padding: 0px;
+            h1 {
+                font-size: 1.8rem;
+            }
+            &:nth-child(2){
+                display: none;
+            }
+            p {
+                width: 92%;
+                padding-left: 18px;
+            }
+            .button {
+                margin: 50px 0 0;
+                width: 153px;
+                height: 47px;
+            }
+        }
+    }
+    
+.onas {
+    height: 100%;
+    flex-direction: column;
+    div  {
+        width: 85%;
+        padding: 50px  0;
+    }
+    .onas-text {
+        width: 100%;
+        padding: 50px 10px ;
+    }
+    .main-icon {
+        height: 400px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.zakres {
+    flex-direction: column;
+    height: 100%;
+    div {
+        width: 100%;
+    }
+    h2 {
+        width: 177px;
+    }
+    .zakres-icon {
+        height: 360px;
+        margin: 0;
+    }
+}
+.oferta {
+    background-position: right top;
+    div {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+       div {
+           padding: 50px 10px 0 10px;
+       }
+    }
+}
+.kontakt {
+    div {
+        &:nth-child(2){
+            flex-direction: column;
+            .formularz {
+                width: 90%;
+                padding-bottom: 20px;
+            }
+            .adres {
+                margin: 0;
+                border-radius: 0;
+            }
+        }
+    }
+}
+}
+
+
+
 // border: 1px dashed rgb(191, 30, 46);

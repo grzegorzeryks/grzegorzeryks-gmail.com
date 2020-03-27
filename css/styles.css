@@ -245,3 +245,62 @@ form textarea:focus {
 footer {
   height: 86px;
   background-color: #bf1e2e; }
+
+@media only screen and (max-width: 468px) {
+  header nav {
+    margin: 0; }
+    header nav ul {
+      display: none; }
+  .main div {
+    width: 100%;
+    padding: 0px; }
+    .main div h1 {
+      font-size: 1.8rem; }
+    .main div:nth-child(2) {
+      display: none; }
+    .main div p {
+      width: 92%;
+      padding-left: 18px; }
+    .main div .button {
+      margin: 50px 0 0;
+      width: 153px;
+      height: 47px; }
+  .onas {
+    height: 100%;
+    flex-direction: column; }
+    .onas div {
+      width: 85%;
+      padding: 50px  0; }
+    .onas .onas-text {
+      width: 100%;
+      padding: 50px 10px; }
+    .onas .main-icon {
+      height: 400px;
+      margin: 0;
+      padding: 0; }
+  .zakres {
+    flex-direction: column;
+    height: 100%; }
+    .zakres div {
+      width: 100%; }
+    .zakres h2 {
+      width: 177px; }
+    .zakres .zakres-icon {
+      height: 360px;
+      margin: 0; }
+  .oferta {
+    background-position: right top; }
+    .oferta div {
+      width: auto;
+      display: flex;
+      flex-direction: column; }
+      .oferta div div {
+        padding: 50px 10px 0 10px; }
+  .kontakt div:nth-child(2) {
+    flex-direction: column; }
+    .kontakt div:nth-child(2) .formularz {
+      width: 90%;
+      padding-bottom: 20px; }
+    .kontakt div:nth-child(2) .adres {
+      margin: 0;
+      border-radius: 0; } }
