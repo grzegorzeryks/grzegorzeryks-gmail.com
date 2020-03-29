@@ -13,20 +13,32 @@
 <body>
     <header>
         <nav>
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <a href="#onas"><li>O nas</li></a>
+                  <a href="#zakres"><li>Zakres</li></a>
+                  <a href="#oferta"><li>Oferta</li></a>
+                  <a href="#kontakt"><li>Kontakt</li></a>
+                </ul>
+              </div>
             <ul>
-                <li><a href="">O NAS</a></a></li>
-                <li><a href="">ZAKRES USŁUG</a></li></a>
+                <li><a href="#onas">O NAS</a></a></li>
+                <li><a href="#zakres">ZAKRES USŁUG</a></li></a>
             </ul>
             <img src="img/weldlab_logo.png" alt="weldlab">
             <ul>
-                <li><a href="">OFERTA</a></a></li>
-                <li><a href="">KONTAKT</a></li></a>
+                <li><a href="#oferta">OFERTA</a></a></li>
+                <li><a href="#kontakt">KONTAKT</a></li></a>
             </ul>
-            <a class="nav-fb-logo" href=""></a>
+            <a class="nav-fb-logo" href="https://www.facebook.com/WeldLab-115526926668964/" target="_blank"></a>
 
         </nav>
     </header>
-    <section class="main">
+    <section id="main" class="main">
         <div>
             <h1><strong>Stal</strong>... prostota, <br>
                 wszechstronność, <br>
@@ -40,7 +52,7 @@
         </div>
         <div></div>
     </section>
-    <section class="onas">
+    <section id="onas" class="onas">
         <div>
             <h2>O NAS</h2>
             <div class="onas-text">
@@ -55,7 +67,7 @@
         </div>
         <div class="main-icon"></div>
     </section>
-    <section class="zakres">
+    <section id="zakres" class="zakres">
         <div>
             <h2>ZAKRES USŁUG</h2>
             <div>
@@ -75,7 +87,7 @@
         </div>
         <div class="zakres-icon"></div>
     </section>
-    <section class="oferta">
+    <section id="oferta" class="oferta">
         <div>
             <h2>OFERTA</h2>
             <div>
@@ -96,7 +108,7 @@
             </div>
         </div>
     </section>
-    <section class="kontakt">
+    <section id="kontakt" class="kontakt">
         <div><h2>KONTAKT</h2></div>
         <div><div class="formularz"><form action="contactform.php" method="post">
             <input type="text" name="name" value="" placeholder="Imię i Nazwisko">
