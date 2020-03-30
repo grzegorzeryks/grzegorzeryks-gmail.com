@@ -67,7 +67,10 @@ header {
       background: url("../img/fb_logo.png");
       position: absolute;
       right: 40px;
-      top: px; }
+      top: px;
+      transition: 1s ease; }
+      header nav .nav-fb-logo:hover {
+        transform: translate(0, -20%); }
 
 section {
   font-family: 'Roboto', sans-serif;
@@ -185,7 +188,8 @@ section {
       background-image: url("../img/icon3_uslugi.png"); }
 
 .kontakt {
-  flex-direction: column; }
+  flex-direction: column;
+  letter-spacing: 2px; }
   .kontakt h2 {
     width: 230px; }
   .kontakt div:nth-child(2) {
@@ -244,7 +248,14 @@ form textarea:focus {
 
 footer {
   height: 86px;
-  background-color: #bf1e2e; }
+  background-color: #bf1e2e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  footer img {
+    margin: 0 0 0 30px; }
+  footer a {
+    margin-right: 30px; }
 
 @media only screen and (max-width: 955px) {
   header nav {

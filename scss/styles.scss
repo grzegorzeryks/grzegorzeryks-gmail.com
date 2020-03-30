@@ -92,6 +92,10 @@ header {
             position: absolute;
             right: 40px;
             top: px;
+            transition: 1s ease;
+            &:hover {
+                transform: translate( 0, -20%);
+              }
         }
 
     }
@@ -271,6 +275,7 @@ section {
 
 .kontakt {
     flex-direction: column;
+    letter-spacing: 2px;
     h2{
         width: 230px;
     }
@@ -350,6 +355,15 @@ form {
 footer {
     height: 86px;
     background-color: rgb(191, 30, 46);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        margin: 0 0 0 30px;
+    }
+    a {
+        margin-right: 30px;
+    }
 }
 
 @media only screen and (max-width: 955px){
